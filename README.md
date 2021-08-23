@@ -3,7 +3,7 @@
 ###### A tool to supervise, monitor the network and alert in case of an anomaly 
 
 The SNMP (Simple Network Management Protocol) is a popular monitoring protocol that began with network elements but has since expanded to be used in any hardware or software. 
-To graph performance data or send alarms, all monitoring systems support it out of the box (examples are applications like nagios or cacti).
+To graph performance data or send alarms, all monitoring systems support it out of the box.
 This protocol employs a hierarchical namespace that contains Object IDentifiers (OID), which are represented as a list of numbers (typically 1.3.6.13.6.1...).
 Each OID identifies a variable that may be read and/or written using the protocol and represents a real magnitude (for example in a network device the speed negotiated by a port or if this port is connected).
 Standardized OIDs are mapped to meaningful names using a MIB (Management information base) that describes each OID. 
