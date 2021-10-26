@@ -1,34 +1,33 @@
 # SNMP-Monitoring-App
 
-###### A tool to supervise, monitor the network and alert in case of an anomaly 
+###### Un outil pour superviser, surveiller le réseau et alerter en cas d'anomalie 
 
-The SNMP (Simple Network Management Protocol) is a popular monitoring protocol that began with network elements but has since expanded to be used in any hardware or software. 
-To graph performance data or send alarms, all monitoring systems support it out of the box.
-This protocol employs a hierarchical namespace that contains Object IDentifiers (OID), which are represented as a list of numbers (typically 1.3.6.13.6.1...).
-Each OID identifies a variable that may be read and/or written using the protocol and represents a real magnitude (for example in a network device the speed negotiated by a port or if this port is connected).
-Standardized OIDs are mapped to meaningful names using a MIB (Management information base) that describes each OID. 
+Le SNMP (Simple Network Management Protocol) est un protocole de surveillance populaire qui a commencé avec des éléments de réseau mais s'est depuis étendu pour être utilisé dans n'importe quel matériel ou logiciel.
+Pour représenter graphiquement les données de performance ou envoyer des alarmes, tous les systèmes de surveillance le prennent en charge immédiatement.
+Ce protocole utilise un espace de noms hiérarchique qui contient des identifiants d'objet (OID), qui sont représentés sous la forme d'une liste de nombres (généralement 1.3.6.13.6.1...).
+Chaque OID identifie une variable qui peut être lue et/ou écrite à l'aide du protocole et représente une grandeur réelle (par exemple dans un équipement réseau la vitesse négociée par un port ou si ce port est connecté).
+Les OID standardisés sont mappés à des noms significatifs à l'aide d'une MIB (Management information base) qui décrit chaque OID.
 
-It comes with nice HMTL5 UI:
-* Dashboard that shows overview of last messages
-* Displays messages sent by specific host
-* Displays messages per severity
-* Displays specific messages received
-* Live update of received traps
+Il est livré avec une belle interface utilisateur HMTL5 :
+* Tableau de bord qui montre un aperçu des derniers messages
+* Affiche les messages envoyés par un hôte spécifique
+* Affiche les messages par gravité
+* Affiche les messages spécifiques reçus
+* Mise à jour en direct des pièges reçus
 
-and more.
+et plus.
 
-You can set severity level for each received message, ignore specific message types, create maintenance periods
-for hosts, set per-user quiet hours and more.
+Vous pouvez définir le niveau de gravité pour chaque message reçu, ignorer des types de messages spécifiques, créer des périodes de maintenance
+pour les hôtes, définissez des heures de silence par utilisateur et plus encore.
 
 
-Notifications are set per-user/severity, by default aupported are:
-* Email notification
-* Pushover notification
-* SMS notification
-* Slack/Mattermost notification
+Les notifications sont définies par utilisateur/gravité, par défaut pris en charge sont :
+* Notification par e-mail
+* Notification de poussée
+* Notification SMS
+* Notification Slack / Mattermost
 
-The can be easily extended to any other custom notification type.
-
+Le peut être facilement étendu à tout autre type de notification personnalisée.
 
 ## screenshots
 
