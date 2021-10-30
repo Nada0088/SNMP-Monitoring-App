@@ -8,7 +8,7 @@ Ce protocole utilise un espace de noms hiérarchique qui contient des identifian
 Chaque OID identifie une variable qui peut être lue et/ou écrite à l'aide du protocole et représente une grandeur réelle (par exemple dans un équipement réseau la vitesse négociée par un port ou si ce port est connecté).
 Les OID standardisés sont mappés à des noms significatifs à l'aide d'une MIB (Management information base) qui décrit chaque OID.
 
-Il est livré avec une belle interface utilisateur HMTL5 :
+Ce projet porte sur la conception et la realisation d'un systeme de monitoring et alerting du reseau. Il est livré avec une belle interface utilisateur HMTL5 :
 * Tableau de bord qui montre un aperçu des derniers messages
 * Affiche les messages envoyés par un hôte spécifique
 * Affiche les messages par gravité
@@ -23,11 +23,7 @@ pour les hôtes, définissez des heures de silence par utilisateur et plus encor
 
 Les notifications sont définies par utilisateur/gravité, par défaut pris en charge sont :
 * Notification par e-mail
-* Notification de poussée
 * Notification SMS
-* Notification Slack / Mattermost
-
-Le peut être facilement étendu à tout autre type de notification personnalisée.
 
 ## screenshots
 
