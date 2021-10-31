@@ -8,7 +8,17 @@ Ce protocole utilise un espace de noms hiérarchique qui contient des identifian
 Chaque OID identifie une variable qui peut être lue et/ou écrite à l'aide du protocole et représente une grandeur réelle (par exemple dans un équipement réseau la vitesse négociée par un port ou si ce port est connecté).
 Les OID standardisés sont mappés à des noms significatifs à l'aide d'une MIB (Management information base) qui décrit chaque OID.
 
-Ce projet porte sur la conception et la realisation d'un systeme de monitoring et alerting du reseau. Il est livré avec une belle interface utilisateur HMTL5 :
+## Surveiller les equipements avec SNMP
+
+Les réseaux d'entreprise sont hétérogènes. En plus des applications à plusieurs niveaux, une partie critique de l'infrastructure se compose de périphériques réseau et d'autres applications spécifiques au fournisseur. Cependant, ces appareils ont normalement un agent (interface) SNMP (Simple Network Management Protocol), ce qui facilite la surveillance SNMP.
+
+SNSM est un outil de surveillance SNMP qui prend en charge la surveillance des périphériques SNMP. Il peut surveiller les agents compatibles SNMP V1, V2c et V3 dans une application compatible SNMP. 
+
+## Outil de surveillance SNMP
+
+Le gestionnaire d'applications prend en charge la surveillance SNMP et permet aux administrateurs de surveiller des applications et des périphériques supplémentaires. Un utilisateur doit uniquement charger un fichier MIB et sélectionner les OID SNMP qui doivent être surveillés. Des tableaux de bord et des vues graphiques par défaut sont créés. Vous pouvez également activer les rapports SNMP pour les OID sélectionnés.
+
+ Il est livré avec une belle interface utilisateur HMTL5 :
 * Tableau de bord qui montre un aperçu des derniers messages
 * Affiche les messages envoyés par un hôte spécifique
 * Affiche les messages par gravité
@@ -17,8 +27,7 @@ Ce projet porte sur la conception et la realisation d'un systeme de monitoring e
 
 et plus.
 
-Vous pouvez définir le niveau de gravité pour chaque message reçu, ignorer des types de messages spécifiques, créer des périodes de maintenance
-pour les hôtes, définissez des heures de silence par utilisateur et plus encore.
+Vous pouvez définir le niveau de gravité pour chaque message reçu (définir des seuils afin d'être averti lorsqu'un problème survient), ignorer des types de messages spécifiques, créer des périodes de maintenance pour les hôtes, définissez des heures de silence par utilisateur et plus encore. Les alarmes et notifications instantanées vous aident à prendre des mesures corrective
 
 
 Les notifications sont définies par utilisateur/gravité, par défaut pris en charge sont :
@@ -27,9 +36,19 @@ Les notifications sont définies par utilisateur/gravité, par défaut pris en c
 
 ## screenshots
 
-Some sample UI screenshots can be found below:
-![Screen1](/css/screenshots/Screen1.png?raw=true "Screen1")
-![Screen2](/css/screenshots/Screen2.png?raw=true "Screen2")
+Vous trouverez ci-dessous quelques exemples de captures d'écran de l'interface utilisateur :
+
+• Interface d’authentification
+L’utilisateur saisit ses informations dans les champs indiqués dans la figure suivante.
+![image](https://user-images.githubusercontent.com/81916000/139585935-805764a0-dbf9-4cfb-b2da-6483ee7d1efc.png)
+
+• La barre des menus :
+Après l’authentification le superviseur pourra choisir parmi ces Menus soit pour consulter
+l’état général, l’historique des pannes, choisir un équipement pour consulter ces informations
+depuis le menu groupes des équipements qui classe les équipements selon leur type (routeur,
+serveur, commutateur), statistiques et la cartographie.
+![image](https://user-images.githubusercontent.com/81916000/139591063-65fa8740-f4a1-4b1f-b14c-936abdb66daf.png)
+
 ![Screen3](/css/screenshots/Screen3.png?raw=true "Screen3")
 ![Screen4](/css/screenshots/Screen4.png?raw=true "Screen4")
 
