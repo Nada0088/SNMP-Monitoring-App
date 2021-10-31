@@ -63,7 +63,7 @@ l’ajout d’un équipement parmi les choix présentés dans la figure précéd
 informations correspondantes, parmi ces informations figurent les éléments nécessaires au
 protocole SNMP tel que : l’adresse IP, la communauté, la version SNMP.
 
-![image](https://user-images.githubusercontent.com/81916000/139605595-33a3be48-90f5-40b0-bb20-5334939e1872.png)
+![image](https://user-images.githubusercontent.com/81916000/139605624-0390b96f-ee11-497c-9d99-44ea0a3f9445.png)
 
 
 La capacité SNMP du gestionnaire d'applications comprend :
