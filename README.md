@@ -40,6 +40,7 @@ Vous trouverez ci-dessous quelques exemples de captures d'écran de l'interface 
 
 • Interface d’authentification
 L’utilisateur saisit ses informations dans les champs indiqués dans la figure suivante.
+
 ![image](https://user-images.githubusercontent.com/81916000/139585935-805764a0-dbf9-4cfb-b2da-6483ee7d1efc.png)
 
 • La barre des menus :
@@ -47,13 +48,22 @@ Après l’authentification le superviseur pourra choisir parmi ces Menus soit p
 l’état général, l’historique des pannes, choisir un équipement pour consulter ces informations
 depuis le menu groupes des équipements qui classe les équipements selon leur type (routeur,
 serveur, commutateur), statistiques et la cartographie.
+
 ![image](https://user-images.githubusercontent.com/81916000/139591063-65fa8740-f4a1-4b1f-b14c-936abdb66daf.png)
 
 • Menu Administrateur :
 Représente le menu à partir duquel l’administrateur peut ajouter des équipements , gérer
 les comptes de superviseurs et recevoir les notifications.
+
 ![image](https://user-images.githubusercontent.com/81916000/139592503-d2a00930-fdf8-41dd-9492-b66d821a4f15.png)
-![Screen4](/css/screenshots/Screen4.png?raw=true "Screen4")
+
+• Page d’ajouter un équipement :
+Lorsque l’administrateur désire ajouter un nouvel équipement à superviser, il sélectionne
+l’ajout d’un équipement parmi les choix présentés dans la figure précédente, et saisi les
+informations correspondantes, parmi ces informations figurent les éléments nécessaires au
+protocole SNMP tel que : l’adresse IP, la communauté, la version SNMP.
+
+![image](https://user-images.githubusercontent.com/81916000/139605595-33a3be48-90f5-40b0-bb20-5334939e1872.png)
 
 
 La capacité SNMP du gestionnaire d'applications comprend :
