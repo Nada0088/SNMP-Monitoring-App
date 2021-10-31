@@ -49,11 +49,20 @@ depuis le menu groupes des équipements qui classe les équipements selon leur t
 serveur, commutateur), statistiques et la cartographie.
 ![image](https://user-images.githubusercontent.com/81916000/139591063-65fa8740-f4a1-4b1f-b14c-936abdb66daf.png)
 
-![Screen3](/css/screenshots/Screen3.png?raw=true "Screen3")
+• Menu Administrateur :
+Représente le menu à partir duquel l’administrateur peut ajouter des équipements , gérer
+les comptes de superviseurs et recevoir les notifications.
+![image](https://user-images.githubusercontent.com/81916000/139592503-d2a00930-fdf8-41dd-9492-b66d821a4f15.png)
 ![Screen4](/css/screenshots/Screen4.png?raw=true "Screen4")
 
 
-## setup
+La capacité SNMP du gestionnaire d'applications comprend :
+
+    -Collecte de données à partir de n'importe quelle ressource SNMP
+    -Rapports et configuration des seuils sur toutes les données d'objet SNMP (OID) collectées
+    -Prise en charge des objets table SNMP et scalaires SNMP
+    -Envoyer des interruptions SNMP
+    -Traiter les interruptions SNMP
 
 
 
