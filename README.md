@@ -65,6 +65,12 @@ protocole SNMP tel que : l’adresse IP, la communauté, la version SNMP.
 
 ![image](https://user-images.githubusercontent.com/81916000/139605624-0390b96f-ee11-497c-9d99-44ea0a3f9445.png)
 
+• Page statistiques (Tableau de bord)  :
+Permet de donner aux superviseurs le droit de consultation les informations du trafic
+entrant/sortant et d’autres informations en mode graphique.
+
+![image](https://user-images.githubusercontent.com/81916000/141693128-f79669ba-15ff-4d69-9a3e-8ba5c4ab17c3.png)
+
 
 La capacité SNMP du gestionnaire d'applications comprend :
 
