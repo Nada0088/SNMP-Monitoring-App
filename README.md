@@ -49,7 +49,7 @@ l’état général, l’historique des pannes, choisir un équipement pour cons
 depuis le menu groupes des équipements qui classe les équipements selon leur type (routeur,
 serveur, commutateur), statistiques et la cartographie.
 
-![image](https://user-images.githubusercontent.com/81916000/139591063-65fa8740-f4a1-4b1f-b14c-936abdb66daf.png)
+![image](https://user-images.githubusercontent.com/81916000/141693297-9a23335a-a456-4f41-b60e-4098162d1d13.png)
 
 • Menu Administrateur :
 Représente le menu à partir duquel l’administrateur peut ajouter des équipements , gérer
