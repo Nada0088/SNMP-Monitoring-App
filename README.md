@@ -69,7 +69,13 @@ protocole SNMP tel que : l’adresse IP, la communauté, la version SNMP.
 Permet de donner aux superviseurs le droit de consultation les informations du trafic
 entrant/sortant et d’autres informations en mode graphique.
 
-![image](https://user-images.githubusercontent.com/81916000/141693128-f79669ba-15ff-4d69-9a3e-8ba5c4ab17c3.png)
+![image](https://user-images.githubusercontent.com/81916000/141701492-efcd62fd-219b-4bdb-b99e-9e4dacab7b08.png)
+
+Page historiques des pannes :
+Cette page montre les pannes, nous pouvons remarquer trois types de pannes, elles sont
+affichées avec l’heure de leur déclenchement. L’administrateur à le droit d’archiver ces pannes.
+
+![image](https://user-images.githubusercontent.com/81916000/141705177-ed8609a1-953f-4166-83d6-32629312330e.png)
 
 
 La capacité SNMP du gestionnaire d'applications comprend :
