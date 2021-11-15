@@ -77,6 +77,13 @@ affichées avec l’heure de leur déclenchement. L’administrateur à le droit
 
 ![image](https://user-images.githubusercontent.com/81916000/141705177-ed8609a1-953f-4166-83d6-32629312330e.png)
 
+ Page équipement :
+Quand le superviseur clique sur un IP depuis les IP existants dans la table affiché dans la
+figure précédente cette page s’affiche, depuis cette page les superviseurs peuvent Consulter
+quelques informations réseau nécessaires et de stockage sur chaque équipement supervisé.
+
+![image](https://user-images.githubusercontent.com/81916000/141709068-064c5f0d-3165-4507-bcc9-8dd534ef48ad.png)
+
 
 La capacité SNMP du gestionnaire d'applications comprend :
 
