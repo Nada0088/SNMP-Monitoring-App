@@ -63,7 +63,7 @@ l’ajout d’un équipement parmi les choix présentés dans la figure précéd
 informations correspondantes, parmi ces informations figurent les éléments nécessaires au
 protocole SNMP tel que : l’adresse IP, la communauté, la version SNMP.
 
-![image](https://user-images.githubusercontent.com/81916000/139605624-0390b96f-ee11-497c-9d99-44ea0a3f9445.png)
+![image](https://user-images.githubusercontent.com/81916000/141709304-bc2f6c46-a7af-4a29-a53c-1eee4a8e8eae.png)
 
 • Page statistiques (Tableau de bord)  :
 Permet de donner aux superviseurs le droit de consultation les informations du trafic
